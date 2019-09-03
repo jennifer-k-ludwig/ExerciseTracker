@@ -1,0 +1,43 @@
+<h1>Exercise Tracker</h1>
+<form id="reset">
+	<input type="submit" value="Reset"><br>
+</form>
+
+<form id="insert">
+	<fieldset>
+		<legend>New Entry</legend>
+		<label> Name: <input id="name" type="text" name="name" size="30" maxlength="255"></label>
+		<label> Reps: <input id="reps" type="number" name="reps" size="30" maxlength="5"></label>
+		<label> Weight: <input id="weight" type="number" name="weight" size="30" maxlength="4"></label>
+		<label> Date: <input id="date" type="date" name="date"></label>
+		<label> Unit: <input id="lbs" type="radio" name="unit">lbs<input id="kgs" type="radio" name="unit">kgs</label>
+		<input type="submit" value="Submit"><br>
+	</fieldset>
+</form>
+
+<form id="edit" style="display: none">
+	<fieldset>
+		<legend>Edit Data</legend>
+		<label> Name: <input id="newName" type="text" name="name" size="30" maxlength="255"></label>
+		<label> Reps: <input id="newReps" type="number" name="reps" size="30" maxlength="5"></label>
+		<label> Weight: <input id="newWeight" type="number" name="weight" size="30" maxlength="4"></label>
+		<label> Date: <input id="newDate" type="date" name="date"></label>
+		<label> Unit: <input id="newLbs" type="radio" name="unit">lbs<input id="kgs" type="radio" name="unit">kgs</label>
+		<input type="submit" value="Submit"><br>
+	</fieldset>
+</form>
+
+<table border="1">
+	<thead>
+		<!-- Row 1 -->
+		<tr>
+			<th>Name</th>
+			<th>Reps</th>
+			<th>Weight</th>
+			<th>Date</th>
+			<th>Unit (lbs/kgs)</th>
+		</tr>
+	<tbody id="body">
+</table>
+
+<script src="/js/ajax-v3.js"></script>
