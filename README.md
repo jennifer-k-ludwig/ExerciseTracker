@@ -2,7 +2,7 @@
 
 Exercise tracker website implemented with JS Express handlebars and MySQL database. Allows the user to input the name, reps, weight, date, and unit for each exercise.
 
-[Website Demo]()
+[Website Demo](https://youtu.be/_CYpiXS8OUM)
 
 ## Features
 * Add new exercise
